@@ -1,7 +1,7 @@
 import os
 from dotenv import load_dotenv
 
-from school_control_system_repository import DatabaseConfig
+from school_control_system_repository.config import DatabaseConfig
 
 load_dotenv()
 

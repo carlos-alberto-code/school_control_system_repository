@@ -5,8 +5,8 @@ from sqlalchemy import pool
 
 from alembic import context
 
-from school_control_system_repository import DatabaseConfig
-from school_control_system_repository.database.models import Base
+from school_control_system_repository.models import Base
+from school_control_system_repository.config import DatabaseConfig
 
 
 HOST = DatabaseConfig.get_host()
