@@ -7,6 +7,9 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.11"
+sqlalchemy = "^2.0.36"
+alembic = "^1.14.0"
+mysql-connector-python = "^9.1.0"
 
 
 [build-system]
